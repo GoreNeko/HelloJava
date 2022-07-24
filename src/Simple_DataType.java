@@ -1,7 +1,7 @@
 public class Simple_DataType {
     public static void main(String[] args) {
         boolean isFun = true;
-        System.out.print(!isFun);
+        System.out.println(!isFun);
 
         char c = 'f'; // 한 개의 문자 표현 가능
         int x = 59;
