@@ -13,5 +13,14 @@ public class Simple_DataType {
         System.out.println(a);
         System.out.println(f);
         System.out.println(d);
+
+        // 강제 형변환
+        int y = 50000;
+        long z = y;
+
+        long y2 = 5;
+        // int x2 = y2;
+        int x2 = (int)y2;
+
     }
 }
