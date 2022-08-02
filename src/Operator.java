@@ -24,5 +24,16 @@ public class Operator {
         System.out.println(i * j);
         System.out.println(i / (double)j);
         System.out.println(i % j);
+
+        int a = 4;
+        int b = 8;
+        int c = 6;
+
+        System.out.println((a - b) * c);
+        System.out.println(a > 5 || b > 5);
+        System.out.println(++a - 4);
+        System.out.println(a);
+
+
     }
 }
